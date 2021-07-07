@@ -1,7 +1,7 @@
 import jwt from 'jsonwebtoken';
 import User from '../models/User';
 
-class HomeControler {
+class TokenControler {
   async store(req, res) {
     const { email = '', password = '' } = req.body;
 
@@ -31,4 +31,4 @@ class HomeControler {
     return res.json({ token });
   }
 }
-export default new HomeControler();
+export default new TokenControler();
