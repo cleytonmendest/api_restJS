@@ -1,3 +1,3 @@
 export default {
-  url: process.env.DATABASE_HOST,
+  url: process.env.APP_URL,
 };

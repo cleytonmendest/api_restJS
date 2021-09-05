@@ -15,8 +15,8 @@ import fotoRouters from './routes/fotoRouters';
 import './database';
 
 const whitelist = [
-  'https://localhost:3000',
-  'https://www.google.com',
+  'https://localhost:3001',
+  '192.168.0.105:3001',
 ];
 
 const corsOptions = {
